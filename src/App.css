@@ -1,0 +1,36 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 650px;
+  margin: 30px auto;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  display: flex;
+  background-color: #25AEF3;
+  flex-direction: column;
+}
+
+.div_for_input{
+  width: 100%;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.input_text{
+  width: 60%;
+  height: 30px;
+  margin: 30px 20px;
+  border: none;
+  padding: 0px 10px;
+  border-radius: 4px;
+}
+
+.div_for_input>p:last-child{
+  color: #ffffff;
+  font-weight: 600;
+}
